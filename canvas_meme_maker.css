@@ -1,0 +1,64 @@
+
+h1{
+	padding: 10px 5px;
+	font-family: 'Indie Flower', cursive;
+	font-size: 70px;
+	text-shadow: 2px 2px #df80ff;
+}
+
+@media only screen and (max-width: 789px){
+	h1{
+		font-size: 60px;
+	}
+}
+
+.container{
+	border: 1px solid;
+	border-style: outset;
+}
+
+#image-container {
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.file-div{
+	padding-left: 40px;
+	padding-top: 30px;
+}
+
+.input-div{
+	padding-left: 20px;
+}
+
+@media only screen and (max-width: 789px){
+	.input-div{
+		padding-bottom: 10px;
+	}
+}
+
+.canvas{
+	padding-left: 50px;
+	padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 789px){
+	.canvas{
+		padding-left: 0px;
+	}
+}
+
+.intro{
+	font-size: 15px;
+	font-weight: 300;
+	padding-top: 10px;
+}
+
+#topLineText, #bottomLineText{
+	border-style: groove;
+}
+
+footer{
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
